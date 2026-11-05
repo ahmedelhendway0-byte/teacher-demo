@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Mr. Teacher · Students",
+  "short_name": "Teacher Students",
+  "description": "بوابة الطلاب وأولياء الأمور — المستر",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#EAAA00",
+  "theme_color": "#3A0F34",
+  "icons": [
+    { "src": "../icons/fam-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../icons/fam-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../icons/fam-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
