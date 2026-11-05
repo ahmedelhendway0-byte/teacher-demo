@@ -113,7 +113,7 @@ const App = {
   logout() { if (window.Sync) Sync.logout(); App.setSes(null); App.st = {}; U.close(true); App.go(''); },
   // POWERED BY HINDAWY في آخر كل شاشة ومع الدخول: الكلمة كبيرة، وتحتها «اعرف أكتر» و«اعرف أكتر عن المؤسسين»، وكلهم بيفتحوا موقع HINDAWY
   pw(cls) {
-    return '<div class="' + cls + '"><a class="hw" href="' + HDW_URL + '" target="_blank" rel="noopener"><small>POWERED BY</small><b>Know HINDAWY →</b></a></div>';
+    return '<div class="' + cls + '"><div class="hd-by">POWERED BY <a href="https://ahmedelhendway0-byte.github.io/portfolio/" target="_blank" rel="noopener">HINDAWY</a></div><a class="hd-know" href="https://ahmedelhendway0-byte.github.io/portfolio/" target="_blank" rel="noopener">Know HINDAWY →</a></div>';
   },
 
   // ================= الدخول =================

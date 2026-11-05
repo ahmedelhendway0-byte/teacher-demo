@@ -1,6 +1,6 @@
 // Service worker: التطبيق بيفتح بسرعة حتى لو النت ضعيف + إشعارات الموبايل
 // ملفات السيستم: من النت الأول، ولو مفيش نت من النسخة المحفوظة. الداتابيز (Supabase) مش بتتحفظ هنا.
-const CACHE = 'oa-v4';
+const CACHE = 'oa-v5';
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith('oa-') && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())));
 
